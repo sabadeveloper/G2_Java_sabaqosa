@@ -1,0 +1,181 @@
+დავალება 1
+package saba;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void  main(String[] args) {
+        System.out.println("C++");
+        System.out.println("C#");
+        System.out.println("Java");
+        System.out.println("pascal");
+        System.out.println("php");
+        System.out.println("JavaScript");
+        System.out.println("ActionScript");
+
+
+    }
+}
+
+დავალება 2
+package saba;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void  main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int first_number = input.nextInt();
+        int second_number=input.nextInt();
+        System.out.println(first_number/second_number);
+        System.out.println(second_number%first_number);
+
+    }
+
+    }
+
+დავალება 3
+
+package saba;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void  main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int first_number = input.nextInt();
+        int second_number=input.nextInt();
+        int third_number = input.nextInt();
+        System.out.println("jami="+(first_number+second_number+third_number));
+        System.out.println("namravli="+(first_number*second_number*third_number));
+
+    }
+
+დავალება 4
+
+package saba;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void  main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int number= input.nextInt();
+        String numberAsString = Integer.toString(number);
+        for (int i=0;i<numberAsString.length();i++){
+            System.out.println(numberAsString.charAt(i));
+        }
+
+
+    }
+
+დავალება 5
+package saba;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void  main(String[] args) {
+        int k=0;
+        Scanner input = new Scanner(System.in);
+        int number= input.nextInt();
+        String numberAsString = Integer.toString(number);
+        if (numberAsString.length()==4) {
+            for (int i = 0; i < numberAsString.length(); i++) {
+                char c = numberAsString.charAt(i);
+                int a = Character.getNumericValue(c);
+                k += a;
+
+            }
+
+        System.out.println(k);}
+        else{
+            System.out.println("Tqven ar shemogitaniat otxnishna ricxvi");
+        };
+
+
+    }
+
+
+
+    }
+
+დავალება 6
+package saba;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void  main(String[] args) {
+        int k=0;
+        Scanner input = new Scanner(System.in);
+        int number= input.nextInt();
+        String numberAsString = Integer.toString(number);
+        for (int i=0;i<numberAsString.length();i++){
+            char c=numberAsString.charAt(i);
+            int a= Character.getNumericValue(c);
+            k +=a;
+
+        }
+        System.out.println(k);
+
+    }
+
+    }
+
+დავალება 7-------?
+
+
+
+დავალება 8
+package saba;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void  main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int number1= input.nextInt();
+        int number2= input.nextInt();
+        for (int i=number1;i<number2;i++){
+            System.out.println(i);
+        }
+
+
+   }
+
+   }
+
+დავალება 9
+package saba;
+import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Collections;
+
+public class Main {
+
+    public static void  main(String[] args) {
+        int[] a = { 0,1,2,3,4,5,6,7 };
+        int j=0;
+
+        for (int i=0;i<a.length;i++){
+            System.out.println(a[i]);
+
+
+        }
+        int max = Arrays.stream(a).max().getAsInt();
+        System.out.println("Largest in given array is " +max);
+
+
+
+
+   }
+
+   }
+
+
+
+
+
+
+
