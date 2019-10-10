@@ -40,15 +40,15 @@ public class Main {
         System.out.println("კენტების რაოდენობაა"+" "+kenti);
         System.out.println("ლუწების ჯამია"+" "+luwebis_jami);
         System.out.println("კენტების ჯამია"+" "+kentebis_jami);
-        if(luwebis_jami>kentebis_jami){
-            kentebis_jami=luwebis_jami;
-            luwebis_jami=kentebis_jami;
-        }
-        for (int j =0;j<5;j++){
+        for (int j = 0; j < 5; j++) {
+            if (luwebis_jami > kentebis_jami) {
 
-            System.out.print(rand.nextInt(kentebis_jami-luwebis_jami+1) + luwebis_jami+"\n");
+                System.out.print(rand.nextInt((luwebis_jami - kentebis_jami) + 1) + kentebis_jami + "\n");
+            } else
+            {
+                System.out.print(rand.nextInt((kentebis_jami - luwebis_jami) + 1) + luwebis_jami + "\n");
+            }
         }
+
     }
-
-
 }
