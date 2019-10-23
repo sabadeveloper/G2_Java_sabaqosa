@@ -32,7 +32,7 @@ public class Main {
             }
             Arrays.sort(arr);
 
-            System.out.println("Max Value is"+" " +arr[1]);
+            System.out.println("Max Value is"+" " +arr[0]);
             System.out.println("Min Value is"+" "+arr[99]);
 
         }catch(Exception e){
