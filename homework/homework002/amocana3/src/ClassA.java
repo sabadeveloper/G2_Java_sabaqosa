@@ -64,7 +64,7 @@ public class ClassA implements AInterfaces {
 
 
         //ამ if-ში მარტივად ჩანს შემდეგი: თუ რიცხვი იყოფა 2 ან 3-ზე უნაშთოდ შესაბამისაც არის შედგენილი და ეგ არ გვაწყობს
-        if (x%2==0 || x%3==0){ //aqedan
+        if (x%2==0 || x%3==0){ 
             return false;
 
         }
@@ -83,7 +83,7 @@ public class ClassA implements AInterfaces {
         Scanner input = new Scanner(System.in);
         b = input.nextLong();
         String str = String.valueOf(b);
-        //აქ გადავწყვიწე, რომ შემოტანილი რიცხვი დამეყო char-ად და ისე ამომეღო სათითაო ციფრი და ჩამეყარა მასივში
+        //აქ გადავწყვიტე, რომ შემოტანილი რიცხვი დამეყო char-ად და ისე ამომეღო სათითაო ციფრი და ჩამეყარა მასივში
 
         char arr[] = str.toCharArray();
         int[] D = new int[256];
