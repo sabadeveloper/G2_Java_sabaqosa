@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args){
-        String m[] = new String[100];
+        String m[] = new String[101];
         HashSet<String> set = new HashSet<String>();
 
 
@@ -33,7 +33,7 @@ public class Main {
             Arrays.sort(arr);
 
             System.out.println("Max Value is"+" " +arr[0]);
-            System.out.println("Min Value is"+" "+arr[99]);
+            System.out.println("Min Value is"+" "+arr[100]);
 
         }catch(Exception e){
             System.out.println(e);
