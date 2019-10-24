@@ -11,7 +11,7 @@ public class ClassA implements AInterfaces {
         Scanner input = new Scanner(System.in);
         a = input.nextInt();
         b = input.nextInt();
-        //for-ში დაგვჭირდა რომ i ცვლადიც აღგვეწერა long-ით რათა შემდეგ მას ვიტოლებ a და b ცვლასდ რაც თავის მხრივ არის long ტიპის
+        //for-ში დაგვჭირდა რომ i ცვლადიც აღგვეწერა long-ით რათა შემდეგ მას ვუტოლებ a და b ცვლადს რაც თავის მხრივ არის long ტიპის
         if (a > b) {
             for(long i=b;b<a-1;b++) {
                 System.out.println(b+1);
