@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args){
         double x;
         double y;
-        for (x=1.0; x<=2.0;x+=0.01){
+        for (x=1.0; x<2.01;x+=0.01){
             double z=x*x+2*x+3;
            ;
 
