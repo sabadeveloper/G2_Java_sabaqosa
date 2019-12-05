@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ba2bf84-b88f-4fb4-9bfb-8534111f3b3b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Midterm/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/Midterm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/budget.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/family.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/out/production/Midterm/saba/FamilyBudget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/out/production/Midterm/saba/FamilyMember.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/out/production/Midterm/saba/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/src/saba/FamilyBudget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/src/saba/FamilyMember.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Midterm/src/saba/Main.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="S:\G2_JAVA\G2_Java_sabaqosa\classwork\ClassWork11\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UC1vPsO8Rb26867DHOJ0CUJqU0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="saba.Main" />
+      <module name="ClassWork11" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ba2bf84-b88f-4fb4-9bfb-8534111f3b3b" name="Default Changelist" comment="" />
+      <created>1574845992776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574845992776</updated>
+      <workItem from="1574845998282" duration="9547000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

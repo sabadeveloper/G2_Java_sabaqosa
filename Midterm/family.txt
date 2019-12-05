@@ -1,4 +1,0 @@
-name= საბაs
-lastname= ქოსაშვილი
-age= 20
-statusდასაოჯახებელი
