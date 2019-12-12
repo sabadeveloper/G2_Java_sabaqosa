@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ba2bf84-b88f-4fb4-9bfb-8534111f3b3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amocana 2/src/saba/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amocana 2/src/saba/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amocana 2/src/saba/Texsfile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Midterm/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Midterm/.idea/description.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Midterm/.idea/encodings.xml" beforeDir="false" />
@@ -87,7 +91,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574845992776</updated>
-      <workItem from="1574845998282" duration="9547000" />
+      <workItem from="1574845998282" duration="10989000" />
+      <workItem from="1575312089143" duration="15000" />
+      <workItem from="1575396346581" duration="176000" />
     </task>
     <servers />
   </component>
@@ -99,7 +105,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

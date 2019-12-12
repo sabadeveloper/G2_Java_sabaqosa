@@ -8,7 +8,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Client  {
+public class Client implements Runnable {
     Socket socket;
     String message;
     String IP;
@@ -16,25 +16,25 @@ public class Client  {
     ObjectInputStream input;
 
 
-
-    public void Client_side() {
+    @Override
+    public void run() {
         try {
-
-            while (true) {
-                socket = new Socket(InetAddress.getByName("localhost"), 8081);/*ვქმნით სოკეტის ტიპის ობიექტს რათა დაადგინოს სად გააგზავნოს ინფო */
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Please enter Server IP:");
+            IP = scanner.next();
+            while (true){
+                socket = new Socket(InetAddress.getByName(IP),8080);/*ვქმნით სოკეტის ტიპის ობიექტს რათა დაადგინოს სად გააგზავნოს ინფო */
                 out = new ObjectOutputStream(socket.getOutputStream());/*გააგზავნე მონაცემები არხში. და რომელ არხში?(socket.getOutputStream()-აი ამ არხში */
-                Scanner scanner = new Scanner(System.in);
                 message = scanner.nextLine();
                 out.writeObject(message);/*გავაგზავნეთ ინფორმაცია, რომელიც კლიენტმა შემოიტანა(message) */
-                if (message.equals("bye")) {
-                    //Thread.currentThread().interrupt();/*Thread გაითიშოს */
-                    System.exit(0);
-                    break;
+                if(message.equals("bye")){
+                        Thread.currentThread().interrupt();/*Thread გაითიშოს */
+                        System.exit(0);
+                        break;
                 }
                 input = new ObjectInputStream(socket.getInputStream());/*ვამზადებთ ნიადაგს, რათა მოვისმინოთ რას გვეტყვის სერვერი */
-                System.out.println("Server: " + input.readObject());
+                System.out.println("Server: "+input.readObject());
             }
-
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
         }

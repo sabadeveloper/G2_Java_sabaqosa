@@ -7,7 +7,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Server{
+public class Server implements Runnable {
     ServerSocket serversocket;
     Socket socket;
     /*გვჭირდება რაღაც რაც მიიღებს ინფორმაციას სოკეტიდან */
@@ -15,10 +15,10 @@ public class Server{
     ObjectOutputStream out;
     String message;
 
-
-    public void Server_side(){
+    @Override
+    public void run() {
         try {
-            serversocket = new ServerSocket(8081); /* უსმენს 8080 პორტს */
+            serversocket = new ServerSocket(8080); /* უსმენს 8080 პორტს */
             while (true){
 
                 socket = serversocket.accept(); /*ვეთანხმებით გამოგზავნილ ინფორმაციას */
